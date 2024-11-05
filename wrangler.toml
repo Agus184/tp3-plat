@@ -1,0 +1,9 @@
+name = "tp3_plat"
+type = "webpack"  # Esto es necesario para que se manejen los archivos TS y JSX
+
+[build]
+command = "npm run build"  # Asegúrate de que tienes un script build para compilar TS
+
+[env.production]
+compatibility_date = "2024-11-05"
+
